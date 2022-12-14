@@ -73,8 +73,7 @@ public abstract class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
-                "make='" + make + '\'' +
+        return make + "{" +
                 ", model='" + model + '\'' +
                 ", year=" + year +
                 ", price=" + price +
